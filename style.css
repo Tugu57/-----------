@@ -1,0 +1,262 @@
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+  width: 100%;
+}
+main {
+  width: 100%;
+  padding-top: 60px;
+  text-align: center;
+}
+    header {
+      background-color: rgb(255, 255, 255);
+    }
+    header {
+      background-color: white;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      /* FLEX ээ ашиглаад MENU гээ янзлах */
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 1;
+    }
+    #nikeDesc {
+      text-align: center;
+      margin-top: 0;
+    }
+    h1 {
+      color: black;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .icons {
+      height: auto;
+      width: 25px;
+      margin-right: 10px;
+    }
+    #iconBox {
+      margin-right: 20px;
+    }
+    nav {
+      text-align: center;
+      padding: 1rem;
+      /* width: 100%; */
+      height: 28px;
+    }
+    nav {
+      text-align: center;
+      padding: 1rem;
+      /* width: 100%; */
+      height: 28px;
+      display: flex;
+      align-items: center;
+    }
+    nav a {
+      color: black;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    #nikeImg {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+    
+    h2 {
+      margin: 20px;
+    }
+    #nikeLogo {
+      width: 100px;
+      height: 45px;
+      object-fit: cover;
+      margin-left: 30px;
+    }
+    span {
+      display: block;
+      background-color: white;
+      padding: 20px;
+      margin: 20px;
+    }
+    span {
+      display: flex;
+      background-color: hsl(229, 38%, 40%);
+      color: white;
+      padding: 20px;
+      margin: 20px;
+      text-align: left;
+    }
+    h3 {
+      margin: 20px;
+    }
+    li {
+      margin: 20px;
+    }
+            
+    img {
+      width: 300px;
+      height: 200px;
+      object-fit: contain;
+    }
+    
+    p {
+      margin: 20px;
+    }
+    
+    h3 {
+      margin: 20px;
+    }
+    
+    li {
+      margin: 20px;
+    }
+    footer {
+      background-color: hsl(229, 38%, 40%);
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    footer {
+      background-color: hsl(229, 38%, 40%);
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    
+    #card-links {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    
+    .card-link {
+      position: relative;
+      width: 50%;
+      display: flex;
+    }
+    
+    .card-link img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .card-link-text {
+      position: absolute;
+      bottom: 30px;
+      left: 30px;
+      text-align: left;
+    }
+    
+    #card-links p,
+    #card-links h2 {
+      color: white;
+    }
+    
+    .catalogSection {
+      text-align: left;
+      width: 100%;
+      margin-top: 30px;
+    }
+    
+    .catalogSection h1 {
+      display: inline-block;
+      margin-left: 40px;
+      margin-bottom: 20px;
+    }
+    
+    .catalog {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 30px;
+    }
+    
+    .sneakers {
+      background-color: #f6f6f6;
+      width: 22%;
+      padding: 10px 0;
+      border-radius: 5%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .sneakers img {
+      width: 100%;
+      object-fit: contain;
+    }
+    
+    .sneakers h2 {
+      margin: 0;
+      margin-bottom: 10px;
+    }
+    
+    .button {
+      background-color: black;
+      border-radius: 30px;
+      padding: 5px 13px;
+      display: inline-block;
+    }
+    
+    .button p {
+      color: white;
+      margin: 0;
+    }
+    
+    .membershipSection {
+      width: 100%;
+      text-align: left;
+    }
+    
+    .membershipSection h1 {
+      display: inline-block;
+      margin-left: 40px;
+      margin-bottom: 30px;
+    }
+    
+    .membership {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .membershipItem {
+      width: 27%;
+      position: relative;
+      margin-right: 20px;
+    }
+    
+    .membershipItem img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+    
+    .membershipDesc {
+      position: absolute;
+      bottom: 20px;
+      color: white;
+    }
+    
+    #button1 {
+      background-color: white;
+      border-radius: 30px;
+      padding: 5px 13px;
+      margin-left: 20px;
+      display: inline-block;
+    }
+    
+    #button1 p {
+      color: black;
+      margin: 0;
+    }
